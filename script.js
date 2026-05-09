@@ -1,0 +1,1 @@
+const menu=document.querySelector('.menu-btn');const nav=document.querySelector('#nav');menu?.addEventListener('click',()=>nav.classList.toggle('open'));document.querySelectorAll('.nav a').forEach(a=>a.addEventListener('click',()=>nav.classList.remove('open')));document.querySelector('.theme-btn')?.addEventListener('click',()=>document.body.classList.toggle('light'));
